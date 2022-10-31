@@ -1,12 +1,12 @@
 import { render } from "@testing-library/react"
 import React from "react"
 
-import { IndexPage } from "./page"
+import { IndexPageComponent } from "./page"
 
 describe("Page Component Tests", () => {
-  test("Should render Page", () => {
-    const { getByText } = render(<IndexPage />)
+  test("Should render PageComponent", () => {
+    const { getByText } = render(<IndexPageComponent />)
 
-    expect(getByText("IndexPage")).toBeTruthy()
+    expect(getByText("IndexPageComponent")).toBeTruthy()
   })
 })

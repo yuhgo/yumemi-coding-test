@@ -1,1 +1,1 @@
-export { IndexPage } from "./page"
+export { IndexPageComponent } from "./page"

@@ -1,9 +1,14 @@
-import type { NextPage } from "next"
+import type { CustomNextPage } from "next"
 import React from "react"
-import { IndexPage } from "src/pages-component/index"
+import { IndexPageComponent } from "src/pages-component/index"
+import { AppLayout } from "src/pages-layout/app"
 
-const Home: NextPage = () => {
-  return <IndexPage />
+const IndexPage: CustomNextPage = () => {
+  return <IndexPageComponent />
 }
 
-export default Home
+IndexPage.getLayout = (page) => {
+  return <AppLayout title="総人口推移">{page}</AppLayout>
+}
+
+export default IndexPage

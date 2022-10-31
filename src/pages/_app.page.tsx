@@ -1,4 +1,4 @@
-import "../styles/globals.scss"
+import "../lib/tailwind.css"
 
 import type { CustomAppPage } from "next/app"
 import React, { memo } from "react"

@@ -62,7 +62,6 @@ module.exports = {
       }
     ],
 
-    "import/no-default-export": "error",
     "import-access/jsdoc": "error",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",

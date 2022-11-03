@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  pageExtensions: ["page.tsx", "page.ts"],
+  experimental: {
+    appDir: true
+  },
   reactStrictMode: true,
   async rewrites() {
     return [{ destination: "/root", source: "/" }]

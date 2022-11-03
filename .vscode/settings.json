@@ -4,5 +4,7 @@
   "editor.codeActionsOnSave": [
     "source.addMissingImports",
     "source.fixAll.eslint"
-  ]
+  ],
+  "typescript.tsdk": ".\\node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }

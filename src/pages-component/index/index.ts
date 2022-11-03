@@ -1,1 +1,0 @@
-export { IndexPageComponent } from "./page"
